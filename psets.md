@@ -7,7 +7,9 @@ title: "Problem Sets"
     The weekly problem sets will be updated here.
 </div>
 
-*The problem sets and solutions might contain error(s): We are trying our best to fix any as we catch them. Please always refresh for the newest version. If you still notice any, please [contact us](/FA25/contacts.html).*
+|⚠️ Important!|
+|:------------|
+|*The problem sets and solutions might contain error(s): We are trying our best to fix any as we catch them. Please always refresh for the newest version. If you still notice any, please [contact us](/FA25/contacts.html).*|
 
 ## Weekly Problem Sets
 
@@ -34,4 +36,6 @@ For the in-class assessments, we will prepare corresponding review resources.
 
 | Assessment | Exam Date | Review Session Time | Additional Resources |
 |:----------:|:---------:|:-------------------:|:---------------------|
+| Midterm 1 | ??? | ??? |  |
+| Midterm 2 | ??? | ??? |  |
 | Final | ??? | ??? |  |
