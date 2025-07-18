@@ -8,7 +8,7 @@ document.querySelectorAll('a').forEach(link => {
       link.setAttribute('target', '_blank');
     }
 
-    if (href && href.toLowerCase().startsWith('https://jhu-ode-pilot.github.io/FA25')) {
+    if (href && href.toLowerCase().startsWith('https://')) {
       link.setAttribute('target', '_blank');
     }
   });
