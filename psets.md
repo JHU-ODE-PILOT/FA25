@@ -7,7 +7,7 @@ title: "Problem Sets"
     The weekly problem sets will be updated here.
 </div>
 
-*The problem sets and solutions might contain error(s): We are trying our best to fix any as we catch them. Please always refresh for the newest version. If you still notice any, please [contact us](/contacts.html).*
+*The problem sets and solutions might contain error(s): We are trying our best to fix any as we catch them. Please always refresh for the newest version. If you still notice any, please [contact us](/FA25/contacts.html).*
 
 ## Weekly Problem Sets
 
@@ -17,7 +17,7 @@ Here are the problem sets for each week of PILOT learning.
   - The compact version will have all questions piled together, just like traditional PILOT sets. The printable version will have each question starting on a new page, which is more optimal if you were to print it out or doing it over a tablet.
   - The solution is passcode protected to encourage attendance to PILOT sessions, ask your PILOT leader while you are attending that session.
 - Additional resources would be tagged or linked in the resources' column.
-  - Also check out the [Resources]({{site.baseurl}}/resources.html#important-documents) for additional notes and practices.
+  - Also check out the [Resources](/FA25/resources.html#important-documents) for additional notes and practices.
 
 | Week Number | Dates | Problem Set | Additional Resources |
 |:-----------:|:-----:|:-----------:|:---------------------|
