@@ -39,57 +39,20 @@
     If you find any questions, please contact us via <a href="/FA25/contacts.html">Contacts</a> tab.
   </div>
 
-    <script>
-      document.querySelectorAll('a').forEach(link => {
-        if (link.closest('.topnav')) return;
+  <script type="text/javascript"
+    async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
 
-        const href = link.getAttribute('href');
-        if (href && href.toLowerCase().endsWith('.pdf')) {
-          link.setAttribute('target', '_blank');
-        }
-      });
-      const textarea = document.getElementById('inputBox');
-
-      function adjustHeight() {
-          textarea.style.height = 'auto';
-          textarea.style.height = textarea.scrollHeight + 'px';
-      }
-
-      // Event listener
-      textarea.addEventListener('input', adjustHeight);
-
-      adjustHeight();</script>
-<script type="text/javascript"
-  async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
-</script>
-
-<script> window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']]
-      },
-      options: {
-        renderActions: {
-          addMenu: []
-        }
-      },
-      chtml: {
-        scale: 1.0,
-        matchFontHeight: true
-      }
-    };
-</script>
-
-<script>
-  const pageName = "{{ page.title }}";
-  const pageCate = "{{ page.category }}";
-</script>
+  <script>
+    const pageName = "{{ page.title }}";
+    const pageCate = "{{ page.category }}";
+  </script>
 
 <script src="/FA25/assets/js/active.js"></script>
 <script src="/FA25/assets/js/redirect.js"></script>
 <script type="module" src="https://bear-resort.github.io/assets/js/day-night.js"></script>
-
+<script type="module" src="https://bear-resort.github.io/assets/js/textarea.js"></script>
 <script src="https://bear-resort.github.io/assets/js/dynamic-island.js"></script>
 <script src="https://bear-resort.github.io/assets/js/listener.js"></script>
 
