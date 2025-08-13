@@ -30,13 +30,14 @@ Here are the problem sets for each week of PILOT learning.
 ## Review Session Information
 
 For the in-class assessments, we will prepare corresponding review resources.
-- The review session information will be updated approximately a week before the assessment.
 - We will provide a practice set, its solutions, and a slide deck of related materials.
     - If you wish to time the practice sets, each problem shall take approximately 12.5 to 15 minutes.
-    - The solutions will be released after the review session ends.
+- The review session information will be updated approximately a week before the assessment. As of right now, we are sure to give review sessions before the final exam, but we have not decided if we shall plan quiz reviews.
 
-| Assessment | Exam Date | Review Session Time | Additional Resources |
+| Assessment Number | Assessment Date | Resources | Review Session |
 |:----------:|:---------:|:-------------------:|:---------------------|
-| Midterm 1 | ??? | ??? |  |
-| Midterm 2 | ??? | ??? |  |
-| Final | ??? | ??? |  |
+| Quiz 1 | ? |  | tentative |
+| Quiz 2 | ? |  | tentative |
+| Quiz 3 | ? |  | tentative |
+| Quiz 4 | ? |  | tentative |
+| Final | December 15th |  | will be released by the end of November |
