@@ -32,5 +32,5 @@ title: "Home"
 
 ## Announcements
 
-- **9/1/2025.** Welcome to PILOT learning for Differential Equations.
+- **8/26/2025.** Welcome to PILOT learning for Differential Equations.
 
