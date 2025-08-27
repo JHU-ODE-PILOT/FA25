@@ -34,10 +34,10 @@ For the in-class assessments, we will prepare corresponding review resources.
     - If you wish to time the practice sets, each problem shall take approximately 12.5 to 15 minutes.
 - The review session information will be updated approximately a week before the assessment. As of right now, we are sure to give review sessions before the final exam, but we have not decided if we shall plan quiz reviews.
 
-| Assessment Number | Assessment Date | Resources | Review Session |
-|:----------:|:---------:|:-------------------:|:---------------------|
-| Quiz 1 | ? |  | tentative |
-| Quiz 2 | ? |  | tentative |
-| Quiz 3 | ? |  | tentative |
-| Quiz 4 | ? |  | tentative |
-| Final | December 15th |  | will be released by the end of November |
+| Assessment Number | Assessment Time | Resources | Review Session |
+|:----------:|:---------|:-------------------:|:---------------------|
+| Quiz 1 | September 16, 8am |  | tentative |
+| Quiz 2 | October 7, 8am |  | tentative |
+| Quiz 3 | October 28, 8am |  | tentative |
+| Quiz 4 | November 18, 8am |  | tentative |
+| Final | December 15th, 9am |  | will be released by the end of November |
