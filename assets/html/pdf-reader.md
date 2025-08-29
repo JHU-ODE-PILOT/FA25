@@ -23,7 +23,7 @@
     </div>
     <div id="ddl" style="text-align:right">
         <button id="download">Download</button>
-    <div>
+    </div>
 </div>
 
 <div id="result-modal">
