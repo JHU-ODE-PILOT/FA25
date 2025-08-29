@@ -160,10 +160,31 @@ if (!url) {
 }
 
 document.getElementById('download').addEventListener('click', function() {
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = url.split('/').pop() || 'file.pdf'; // suggest filename, fallback if needed
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
+    loadingMsg.textContent = "Preparing download...";
+    fetch(url)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Network response was not ok");
+            }
+            return response.blob();
+        })
+        .then(blob => {
+            const blobUrl = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = blobUrl;
+            a.download = url.split('/').pop() || 'file.pdf';
+            document.body.appendChild(a);
+
+            // Programmatically click the link:
+            a.click();
+
+            // CLEAN UP
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(blobUrl);
+            loadingMsg.textContent = "";
+        })
+        .catch(err => {
+            loadingMsg.textContent = "Failed to download PDF.";
+            console.error("Download failed:", err);
+        });
 });
