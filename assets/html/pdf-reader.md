@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "PDF Reader"
+stitle: "PDF Reader"
 ---
 
 <style>
