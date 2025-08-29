@@ -25,12 +25,11 @@ pdfjsLib.GlobalWorkerOptions.workerSrc =
 let pdfDoc = null;
 let pageNum = 1;
 let pageCount = 0;
-let scale = 1.0; // Default scale
+let scale = 3.0; // Default scale
 
 // --- Modal Helpers ---
-function showPasswordModal(message) {
-  resultText.textContent = message || "Enter the passcode for file:";
-  resultModal.style.display = "block";
+function showPasswordModal() {
+  resultModal.style.display = "flex";
   usrPassword.value = "";
   usrPassword.focus();
 }
@@ -90,7 +89,7 @@ function loadPdf(password) {
         if (err.message && err.message.includes("incorrect")) {
           msg = "Incorrect password. Try again:";
         }
-        showPasswordModal(msg);
+        showPasswordModal();
       } else {
         console.error("PDF load error:", err);
         loadingMsg.textContent = "Failed to load PDF.";

@@ -25,10 +25,10 @@
 
 <div id="result-modal">
     <div id="result-box" style="text-align: center;">
-        <div id="result-text">Enter the passcode for file:</div>
+        <div id="result-text">Password required for opening this file.</div>
         <br>
-        <input id="usrPassword" type="password" placeholder="Enter your password..."></input>
-        <br>
+        <input id="usrPassword" type="password" placeholder="Enter your password...">
+        <br><br>
         <button id="enter">enter</button>
     </div>
 </div>
