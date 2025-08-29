@@ -9,6 +9,11 @@
         margin: 0 5px;
         font-size: 12px;
     }
+    #ddl button {
+        padding: 5px 10px;
+        margin: 0 5px;
+        font-size: 12px;
+    }
 </style>
 
 <div style="text-align: center;">
@@ -21,8 +26,9 @@
     <div id="canvasContainer" style="text-align: center;">
         <canvas id="pdf-render" style="width: 85%; height: auto; border: 1px solid #ccc;"></canvas>
     </div>
+    <br>
     <div id="ddl" style="text-align:right">
-        <button id="download">Download</button>
+        <button id="download">⤓</button>
     </div>
 </div>
 
