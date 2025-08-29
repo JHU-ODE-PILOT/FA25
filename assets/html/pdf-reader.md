@@ -30,5 +30,4 @@
     </div>
 </div>
 
-<script>
-</script>
+<script src="pdf-reader.js"></script>
