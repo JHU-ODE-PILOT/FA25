@@ -23,4 +23,14 @@
     </div>
 </div>
 
+<div id="result-modal">
+    <div id="result-box" style="text-align: center;">
+        <div id="result-text">Enter the passcode for file:</div>
+        <br>
+        <input id="usrPassword" type="password" placeholder="Enter your password..."></input>
+        <br>
+        <button id="enter">enter</button>
+    </div>
+</div>
+
 <script src="pdf-reader.js"></script>
