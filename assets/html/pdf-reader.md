@@ -1,11 +1,4 @@
 <style>
-    img {
-        max-width: 75%;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
     #pdf-render {
         max-width: 100%;
         height: auto;
