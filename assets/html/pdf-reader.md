@@ -16,13 +16,14 @@
         <button id="prev">←</button>
         <span>Page: <span id="page-num">1</span> / <span id="page-count">?</span></span>
         <button id="next">→</button>
-        <br>
-        <button id="download">Download</button>
     </div>
     <div id="loading" style="text-align: center;">Loading...</div>
     <div id="canvasContainer" style="text-align: center;">
         <canvas id="pdf-render" style="width: 85%; height: auto; border: 1px solid #ccc;"></canvas>
     </div>
+    <div id="ddl" style="text-align:right">
+        <button id="download">Download</button>
+    <div>
 </div>
 
 <div id="result-modal">

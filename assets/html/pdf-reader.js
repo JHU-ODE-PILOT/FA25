@@ -17,6 +17,9 @@ const resultText = document.getElementById('result-text');
 const usrPassword = document.getElementById('usrPassword');
 const enterBtn = document.getElementById('enter');
 
+const downloadBtn = document.getElementById('download');
+const ddlC = document.getElementById('ddl');
+
 // --- PDF.js Worker ---
 pdfjsLib.GlobalWorkerOptions.workerSrc =
   "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
@@ -29,6 +32,7 @@ let scale = 3.0; // Default scale
 
 // --- Modal Helpers ---
 function showPasswordModal() {
+  ddlC.style.display = 'none';
   resultModal.style.display = "flex";
   usrPassword.value = "";
   usrPassword.focus();
@@ -159,7 +163,7 @@ if (!url) {
   loadPdf();
 }
 
-document.getElementById('download').addEventListener('click', function() {
+downloadBtn.addEventListener('click', function() {
     loadingMsg.textContent = "Preparing download...";
     fetch(url)
         .then(response => {
