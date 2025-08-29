@@ -9,7 +9,7 @@ title: "Problem Sets"
 
 <br>
 
-|⚠️ Important!|
+| ⚠︎ Important!|
 |:------------|
 |*The problem sets and solutions might contain error(s): We are trying our best to fix any as we catch them.*<br>*Please always refresh for the newest version. If you still notice any, please [contact us](/FA25/contacts.html).*|
 
@@ -24,7 +24,7 @@ Here are the problem sets for each week of PILOT learning.
 
 | Week Number | Dates | Problem Set | Additional Resources |
 |:-----------:|:-----:|:-----------:|:---------------------|
-| 1 | September 1st - September 5th | [Problem Set](/psets/PS1.pdf) | [Solutions](/psets/PS1-Soln.pdf) |
+| ☞ 1 ☜ | September 1st - September 5th | [PSet 1](/psets/PS1.pdf) | [Solutions](/psets/PS1-Soln.pdf) |
 | 2 | September 8th - September 13th |  |  |
 
 ## Review Session Information

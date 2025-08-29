@@ -28,7 +28,7 @@
     </div>
     <br>
     <div id="ddl" style="text-align:right">
-        <button id="download">⤓</button>
+        <button id="download">⤓ Download</button>
     </div>
 </div>
 
@@ -36,9 +36,9 @@
     <div id="result-box" style="text-align: center;">
         <div id="result-text">Password required for opening this file.</div>
         <br>
-        <input id="usrPassword" type="password" placeholder="Enter your password...">
+        <input id="usrPassword" type="password" placeholder="Enter the password...">
         <br><br>
-        <button id="enter">enter</button>
+        <button id="enter" style="font-size: 14px">Enter</button>
     </div>
 </div>
 
