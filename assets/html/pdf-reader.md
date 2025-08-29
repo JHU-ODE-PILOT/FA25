@@ -1,3 +1,8 @@
+---
+layout: default
+title: "PDF Reader"
+---
+
 <style>
     #pdf-render {
         max-width: 100%;
