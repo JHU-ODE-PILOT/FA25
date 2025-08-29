@@ -158,3 +158,12 @@ if (!url) {
 } else {
   loadPdf();
 }
+
+document.getElementById('download').addEventListener('click', function() {
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = url.split('/').pop() || 'file.pdf'; // suggest filename, fallback if needed
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+});

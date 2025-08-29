@@ -13,9 +13,11 @@
 
 <div style="text-align: center;">
     <div id="pdf-controls" style="text-align: center; margin-bottom: 10px;">
-        <button id="prev" onclick="prevPage()">←</button>
+        <button id="prev">←</button>
         <span>Page: <span id="page-num">1</span> / <span id="page-count">?</span></span>
-        <button id="next" onclick="nextPage()">→</button>
+        <button id="next">→</button>
+        <br>
+        <button id="download">Download</button>
     </div>
     <div id="loading" style="text-align: center;">Loading...</div>
     <div id="canvasContainer" style="text-align: center;">
