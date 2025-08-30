@@ -196,7 +196,7 @@ downloadBtn.addEventListener('click', function() {
 for (let i = 0; i <= 9; i++) {
   let numBtn = document.getElementById(i);
   numBtn.addEventListener('click', function() {
-    usrPassword.value = usrPassword.value + 'i';
+    usrPassword.value = usrPassword.value + i;
   })
 }
 
