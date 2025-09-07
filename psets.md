@@ -37,7 +37,7 @@ For the in-class assessments, we will prepare corresponding review resources.
 
 | Assessment Number | Assessment Time | Resources | Extra Resources |
 |:----------:|:---------|:-------------------:|:---------------------|
-| Quiz 1 | September 16th | [Review Set 1](/psets/R1.pdf) (<a onclick="alert('to be released...')">Click me</a>) |  |
+| Quiz 1 | September 16th | [Review Set 1](/psets/R1.pdf) (<a onclick="alert('to be released...')"><i>Solutions</i></a>) |  |
 | Quiz 2 | October 7th |  |  |
 | Quiz 3 | October 28th |  |  |
 | Quiz 4 | November 18th |  |  |

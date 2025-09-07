@@ -32,5 +32,6 @@ title: "Home"
 
 ## Announcements
 
+- **9/6/2025.** [Quiz 1 Review material](https://jhu-ode-pilot.github.io/FA25/psets.html#review-session-information) is now released.
 - **8/26/2025.** Welcome to PILOT learning for Differential Equations.
 
