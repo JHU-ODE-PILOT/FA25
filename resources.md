@@ -12,10 +12,10 @@ title: "Resources"
 
 | Professor | Semester | Link |
 |:---------:|:--------:|:----:|
-| Prof. Dodson | Spring 2023 | [Notes](https://math.jhu.edu/~dodson/Math302_ODE-LectureNotes.pdf)|
-| Prof. Brown | Fall 2018 | [Homepage](https://math.jhu.edu/~brown/courses/f18/Syllabus302.html)|
-| Prof. Lindbald | Fall 2014| [Homepage](https://math.jhu.edu/~lindblad/302/302.html)|
-| Prof. Bernstein | Fall 2014| [Homepage](https://math.jhu.edu/~bernstein/math306/index.html)|
+| Professor Dodson | Spring 2023 | [Notes](https://math.jhu.edu/~dodson/Math302_ODE-LectureNotes.pdf)|
+| Professor Brown | Fall 2018 | [Homepage](https://math.jhu.edu/~brown/courses/f18/Syllabus302.html)|
+| Professor Lindbald | Fall 2014| [Homepage](https://math.jhu.edu/~lindblad/302/302.html)|
+| Professor Bernstein | Fall 2014| [Homepage](https://math.jhu.edu/~bernstein/math306/index.html)|
 
 
 - [Paul's Online Notes for ODEs](https://tutorial.math.lamar.edu/Classes/DE/DE.aspx):
