@@ -37,7 +37,7 @@ For the in-class assessments, we will prepare corresponding review resources.
 
 | Assessment Number | Assessment Date | Practices | Review Session |
 |:-----------------:|:---------------:|:---------:|:--------------:|
-| <span id="quiz1">Quiz 1</span> | September 16th | [Review Set 1](/psets/R1.pdf) (<span onclick="alert('to be released...')"><i>Solutions</i></span>) | <a onclick="alert('to be announced...')"><i>Time and Location</i></a> |
+| <span id="quiz1">Quiz 1</span> | September 16th | [Review Set 1](/psets/R1.pdf) (<span onclick="alert('to be released...')"><i>Solutions</i></span>) | September 14th @ 6pm<br>Krieger 180 |
 | Quiz 2 | October 7th |  |  |
 | Quiz 3 | October 28th |  |  |
 | Quiz 4 | November 18th |  |  |
