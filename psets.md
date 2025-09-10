@@ -26,7 +26,7 @@ Here are the problem sets for each week of PILOT learning.
 |:-----------:|:-----:|:-----------:|:---------------------|
 | 1 | September 1st - September 5th | [PSet 1](/psets/PS1.pdf) ([*Solutions*](/psets/PS1-Soln.pdf)) |  |
 | ☞ 2 ☜ | September 8th - September 12th | [PSet 2](/psets/PS2.pdf) ([*Solutions*](/psets/PS2-Soln.pdf)) | [Differential Forms](/psets/Differential_form.pdf) <br> [Quiz 1 Resources](/FA25/psets.html#quiz1) |
-| 3 | September 15th - September 19th |  |  |
+| 3 | September 15th - September 19th | [PSet 2](/psets/PS3.pdf) ([*Solutions*](/psets/PS3-Soln.pdf)) | ["Dilemma" with Existence and Uniqueness Theorem](/psets/Dilemma.pdf) <br> <span onclick="alert('The passcode for PSet3 Solution is 1135.')"><i><u>Get Passcode</u></i></span> |
 
 ## Review Information
 
@@ -37,7 +37,7 @@ For the in-class assessments, we will prepare corresponding review resources.
 
 | Assessment Number | Assessment Date | Practices | Review Session |
 |:-----------------:|:---------------:|:---------:|:--------------:|
-| <span id="quiz1">Quiz 1</span> | September 16th | [Review Set 1](/psets/R1.pdf) (<span onclick="alert('to be released...')"><i>Solutions</i></span>) | September 14th @ 6pm<br>Krieger 180 |
+| <span id="quiz1">Quiz 1</span> | September 16th | [Review Set 1](/psets/R1.pdf) (<span onclick="alert('to be released...')"><i>Solutions</i></span>) <br> [Review Slides](/psets/Quiz-1-Slides.pdf) | September 14th @ 6pm<br>Krieger 180 |
 | Quiz 2 | October 7th |  |  |
 | Quiz 3 | October 28th |  |  |
 | Quiz 4 | November 18th |  |  |
