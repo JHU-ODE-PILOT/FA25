@@ -41,3 +41,5 @@ function showMessage(txt) {
     }, duration * 1000);
     });
 }
+
+showMessage(messages[idx]);
