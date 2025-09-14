@@ -20,7 +20,7 @@
   <script type="module" src="https://bear-resort.github.io/assets/js/cookie.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 
-  <div class="topnav" style="text-align: center;">
+  <div class="topnav" id="top" style="text-align: center;">
     <span class="logo"> <img src="/FA25/img/logo.png" style="vertical-align: middle; height: 25px; width: 25px" alt="logo"></span> &nbsp; PILOT Learning for <i>Differential Equations</i> &nbsp; &nbsp;  
     <a href="/FA25/index.html" id="home">Home</a> | 
     <a href="/FA25/psets.html" id="psets">Problem Sets</a> |
@@ -34,11 +34,13 @@
         <div class="largertitle">{{ page.title }}</div>
     </div>
     <br>
-    {{ content }}
+    <div id="contents">
+      {{ content }}
+    </div>
     <br><br><br>
   </div>
   <div id="day-night">🌞</div>
-  <div class="botnav" style="text-align: center;">
+  <div class="botnav" id="btm" style="text-align: center;">
     <div class="led-ticker">
       <span class="led-message">If you find any questions, please contact us via <a href="/FA25/contacts.html">Contacts</a> tab.</span>
     </div>
@@ -66,6 +68,7 @@
 <script src="/FA25/assets/js/pdf-reader.js"></script>
 <script src="/FA25/assets/js/redirect.js"></script>
 <script src="/FA25/assets/js/led.js"></script>
+<script src="/FA25/assets/js/disable-page.js"></script>
 <script type="module" src="https://bear-resort.github.io/assets/js/day-night.js"></script>
 <script type="module" src="https://bear-resort.github.io/assets/js/textarea.js"></script>
 <script src="https://bear-resort.github.io/assets/js/dynamic-island.js"></script>
