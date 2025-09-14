@@ -1,21 +1,21 @@
-const date = Date();
+const date = new Date();
 
 const examTime = [
     {
-        start: Date("2025-09-16T08:00:00"),
-        end: Date("2025-09-16T09:00:00")
+        start: new Date("2025-09-16T08:00:00"),
+        end: new Date("2025-09-16T09:00:00")
     },
     {
-        start: Date("2025-10-07T08:00:00"),
-        end: Date("2025-10-07T09:00:00")
+        start: new Date("2025-10-07T08:00:00"),
+        end: new Date("2025-10-07T09:00:00")
     },
     {
-        start: Date("2025-11-18T08:00:00"),
-        end: Date("2025-11-18T09:00:00")
+        start: new Date("2025-11-18T08:00:00"),
+        end: new Date("2025-11-18T09:00:00")
     },
     {
-        start: Date("2025-12-15T09:00:00"),
-        end: Date("2025-12-15T12:00:00")
+        start: new Date("2025-12-15T09:00:00"),
+        end: new Date("2025-12-15T12:00:00")
     },
 ]
 
