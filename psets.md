@@ -25,8 +25,8 @@ Here are the problem sets for each week of PILOT learning.
 | Week Number | Dates | Problem Set | Additional Resources |
 |:-----------:|:-----:|:-----------:|:---------------------|
 | 1 | September 1st - September 5th | [PSet 1](/psets/PS1.pdf) ([*Solutions*](/psets/PS1-Soln.pdf)) |  |
-| ☞ 2 ☜ | September 8th - September 12th | [PSet 2](/psets/PS2.pdf) ([*Solutions*](/psets/PS2-Soln.pdf)) | [Differential Forms](/psets/Differential_form.pdf) <br> [Quiz 1 Resources](/FA25/psets.html#quiz1) |
-| 3 | September 15th - September 19th | [PSet 3](/psets/PS3.pdf) ([*Solutions*](/psets/PS3-Soln.pdf)) | [A Small "Dilemma"](/psets/Dilemma.pdf) <br> <a onclick="alert(`The passcode for PSet3 Solution is <code>1135</code>.`)"><i><u>Passcode</u></i></a> |
+| 2 | September 8th - September 12th | [PSet 2](/psets/PS2.pdf) ([*Solutions*](/psets/PS2-Soln.pdf)) | [Differential Forms](/psets/Differential_form.pdf) <br> [Quiz 1 Resources](/FA25/psets.html#quiz1) |
+| ☞ 3 ☜ | September 15th - September 19th | [PSet 3](/psets/PS3.pdf) ([*Solutions*](/psets/PS3-Soln.pdf)) | [A Small "Dilemma"](/psets/Dilemma.pdf) <br> <a onclick="alert(`The passcode for PSet3 Solution is <code>1135</code>.`)"><i><u>Passcode</u></i></a> |
 | 4 | September 22nd - September 26th |  |  |
 
 ## Review Information
