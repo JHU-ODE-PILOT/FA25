@@ -36,7 +36,6 @@ let scale = 3.0; // Default scale
 
 // --- Modal Helpers ---
 function showPasswordModal() {
-  ddlC.style.display = 'none';
   resultModal.style.display = "flex";
   usrPassword.value = "";
   usrPassword.focus();
@@ -98,6 +97,7 @@ function loadPdf(password) {
         if (err.message && err.message.includes("incorrect")) {
           msg = "Incorrect password. Try again:";
         }
+        ddlC.style.display = 'none';
         if (!isUnlock) { showPasswordModal(); }
       } else {
         console.error("PDF load error:", err);
