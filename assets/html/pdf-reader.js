@@ -20,6 +20,8 @@ const enterBtn = document.getElementById('enter');
 const downloadBtn = document.getElementById('download');
 const ddlC = document.getElementById('ddl');
 
+let isUnlock = false;
+
 let passcode = 0;
 
 // --- PDF.js Worker ---
@@ -86,6 +88,7 @@ function loadPdf(password) {
       pageNum = 1;
       renderPage(pageNum);
       hidePasswordModal();
+      isUnlock = true;
       checkPage();
     })
     .catch((err) => {
@@ -95,7 +98,7 @@ function loadPdf(password) {
         if (err.message && err.message.includes("incorrect")) {
           msg = "Incorrect password. Try again:";
         }
-        showPasswordModal();
+        if (!isUnlock) { showPasswordModal(); }
       } else {
         console.error("PDF load error:", err);
         loadingMsg.textContent = "Failed to load PDF.";
