@@ -162,6 +162,7 @@ resultModal.style.display = "none";
 if (!url) {
   loadingMsg.textContent = "Invalid URL.";
 } else {
+  loadPdf();
   loadPdf("0");
 }
 
