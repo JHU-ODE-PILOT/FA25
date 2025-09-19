@@ -3,7 +3,7 @@ layout: default
 title: "Resources"
 ---
 
-## Archives
+## 📁 Archives
 
 - [PILOT Archives](https://jhu-ode-pilot.github.io):
     - Archived documents for Past PILOT term, feel free to check out the documents for practices purposes.
@@ -21,7 +21,7 @@ title: "Resources"
 - [Paul's Online Notes for ODEs](https://tutorial.math.lamar.edu/Classes/DE/DE.aspx):
     - A popular site contributed by a professor includes notes and exercises from various classes. Note that more than ODEs can be found on this site, and the syllabus could vary among these classes.
 
-## Important Documents
+## 📄 Important Documents
 
 - [Conceptual Problem Set](/FA25/resources/Conceptual-Problem-Set.pdf):
     - A specially designed extra problem set is updated for students who are interested in mathematical proof and fun questions underlying ODEs. The extra problem set contains approximately 2 problems for each week. This set is completely voluntary, and its contents are mostly outside the scope of this class (conventionally).
