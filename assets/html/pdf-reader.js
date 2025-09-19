@@ -20,6 +20,8 @@ const enterBtn = document.getElementById('enter');
 const downloadBtn = document.getElementById('download');
 const ddlC = document.getElementById('ddl');
 
+let passcode = 0;
+
 // --- PDF.js Worker ---
 pdfjsLib.GlobalWorkerOptions.workerSrc =
   "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
@@ -143,7 +145,7 @@ nextBtn.addEventListener("click", nextPage);
 // document.getElementById('zoom-out').addEventListener("click", zoomOut);
 
 enterBtn.addEventListener("click", function () {
-  const pw = usrPassword.value;
+  const pw = usrPassword.value + "0";
   loadingMsg.textContent = "Loading PDF ...";
   hidePasswordModal();
   loadPdf(pw);
@@ -160,7 +162,7 @@ resultModal.style.display = "none";
 if (!url) {
   loadingMsg.textContent = "Invalid URL.";
 } else {
-  loadPdf();
+  loadPdf("0");
 }
 
 downloadBtn.addEventListener('click', function() {
