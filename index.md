@@ -38,7 +38,7 @@ title: "Home"
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">This webpage will be disabled during the period in which an exam is given, that is:<ul><li>September 16th, 8am-9am</li><li>September 16th, 8am-9am</li><li>October 7th, 8am-9am</li><li>October 28th, 8am-9am</li><li>November 18th, 8am-9am</li><li>December 15th, 9am-12pm</li></ul>
+      <td style="text-align: left">This webpage will be disabled during the period in which an exam is given, that is:<ul><li>September 16th, 8am-9am</li><li>October 7th, 8am-9am</li><li>October 28th, 8am-9am</li><li>November 18th, 8am-9am</li><li>December 15th, 9am-12pm</li></ul>
       Please arrange your review in advance.</td>
     </tr>
   </tbody>
