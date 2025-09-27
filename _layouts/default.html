@@ -39,9 +39,15 @@
     </div>
     <br><br><br>
   </div>
+
+  <canvas id="drawCanvas"
+    style="position:fixed;top:0;left:0;width:100vw;height:100vh;
+    pointer-events:none;z-index:2;display:none;">
+  </canvas>
+
   <div id="day-night">🌞</div>
   <div class="botnav" id="btm" style="text-align: center;">
-    <div id="cmd" style="display: none;">
+    <div id="cmd" style="display: none; z-index: 8;">
       <input type="text" style="width: 90%;" id="cmd-box" placeholder="Type command here..." />
     </div>
     <div class="led-ticker" id="banner">
@@ -56,7 +62,7 @@
     </div>
   </div>
   
-  <div id="lang">🪛</div>
+  <div id="lang", style="z-index: 9;">🪛</div>
 
 
   <script type="text/javascript"
