@@ -3,7 +3,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const url = urlParams.get('pdf');
 
 const canvas = document.getElementById('pdf-render');
-const ctx_draw = canvas_draw.getContext('2d');
+const ctx = canvas.getContext('2d');
 const loadingMsg = document.getElementById('loading');
 
 const prevBtn = document.getElementById('prev');
@@ -56,11 +56,11 @@ function renderPage(num) {
   loadingMsg.style.display = "block";
   pdfDoc.getPage(num).then((page) => {
     const viewport = page.getViewport({ scale: scale });
-    canvas_draw.height = viewport.height;
-    canvas_draw.width = viewport.width;
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
 
     const renderContext = {
-      canvasContext: ctx_draw,
+      canvasContext: ctx,
       viewport: viewport,
     };
 
