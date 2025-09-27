@@ -41,7 +41,10 @@
   </div>
   <div id="day-night">🌞</div>
   <div class="botnav" id="btm" style="text-align: center;">
-    <div class="led-ticker">
+    <div id="cmd" style="display: none;">
+      <input type="text" style="width: 90%;" id="cmd-box" placeholder="Type command here..." />
+    </div>
+    <div class="led-ticker" id="banner">
       <span class="led-message">If you find any questions, please contact us via <a href="/FA25/contacts.html">Contacts</a> tab.</span>
     </div>
   </div>
@@ -52,6 +55,9 @@
       <button id="close-modal-btn">×</button>
     </div>
   </div>
+  
+  <div id="lang">🪛</div>
+
 
   <script type="text/javascript"
     async
@@ -68,6 +74,7 @@
 <script src="/FA25/assets/js/pdf-reader.js"></script>
 <script src="/FA25/assets/js/redirect.js"></script>
 <script src="/FA25/assets/js/led.js"></script>
+<script src="/FA25/assets/js/console.js"></script>
 <script src="/FA25/assets/js/disable-page.js"></script>
 <script type="module" src="https://bear-resort.github.io/assets/js/day-night.js"></script>
 <script type="module" src="https://bear-resort.github.io/assets/js/textarea.js"></script>
