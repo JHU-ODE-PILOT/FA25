@@ -50,7 +50,6 @@ function parseCmd(text) {
 const canvas_draw = document.getElementById('drawCanvas');
 let drawing = false;
 let ctx_draw = canvas_draw.getContext('2d');
-ctx_draw.strokeStyle = "blue";
 
 function resizeCanvas() {
   canvas_draw.width = window.innerWidth;
@@ -81,6 +80,7 @@ function startDrawing(e) {
   ctx_draw.beginPath();
   ctx_draw.moveTo(p.x, p.y);
   ctx_draw.lineWidth = 3;
+  ctx_draw.strokeStyle = 'blue';
   ctx_draw.lineCap = 'round';
   e.preventDefault();
 }
