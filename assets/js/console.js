@@ -31,9 +31,16 @@ function handleCmd(event) {
 }
 
 function parseCmd(text) {
+    text = text.trim().toLowerCase();
     if (text === "draw") {
         toggleDraw();
+        return;
     }
+    if (text === "clear") {
+        clear();
+        return;
+    }
+    alert("Unrecognized command");
 } 
 
 
@@ -43,6 +50,7 @@ function parseCmd(text) {
 const canvas = document.getElementById('drawCanvas');
 let drawing = false;
 let ctx = canvas.getContext('2d');
+ctx.strokeStyle = "blue";
 
 function resizeCanvas() {
   canvas.width = window.innerWidth;
@@ -109,6 +117,10 @@ function toggleDraw() {
   active = !active;
   if (active) enableDrawing();
   else disableDrawing();
+}
+
+function clear() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
 
 // Mouse events
