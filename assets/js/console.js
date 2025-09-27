@@ -47,14 +47,14 @@ function parseCmd(text) {
 // draw
 
 // const drawBtn = document.getElementById('toggleDrawBtn');
-const canvas = document.getElementById('drawCanvas');
+const canvas_draw = document.getElementById('drawCanvas');
 let drawing = false;
-let ctx = canvas.getContext('2d');
-ctx.strokeStyle = "blue";
+let ctx_draw = canvas_draw.getContext('2d');
+ctx_draw.strokeStyle = "blue";
 
 function resizeCanvas() {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+  canvas_draw.width = window.innerWidth;
+  canvas_draw.height = window.innerHeight;
 }
 resizeCanvas();
 window.addEventListener('resize', resizeCanvas);
@@ -75,40 +75,39 @@ function getPointerPos(e) {
 
 // Drawing handlers
 function startDrawing(e) {
-  if (canvas.style.display === 'none') return;
+  if (canvas_draw.style.display === 'none') return;
   drawing = true;
   const p = getPointerPos(e);
-  ctx.beginPath();
-  ctx.moveTo(p.x, p.y);
-  ctx.lineWidth = 3;
-  ctx.strokeStyle = 'black';
-  ctx.lineCap = 'round';
+  ctx_draw.beginPath();
+  ctx_draw.moveTo(p.x, p.y);
+  ctx_draw.lineWidth = 3;
+  ctx_draw.lineCap = 'round';
   e.preventDefault();
 }
 
 function draw(e) {
   if (!drawing) return;
   const p = getPointerPos(e);
-  ctx.lineTo(p.x, p.y);
-  ctx.stroke();
+  ctx_draw.lineTo(p.x, p.y);
+  ctx_draw.stroke();
   e.preventDefault();
 }
 
 function stopDrawing() {
   if (!drawing) return;
   drawing = false;
-  ctx.closePath();
+  ctx_draw.closePath();
 }
 
 // Enable drawing only when active
 function enableDrawing() {
-  canvas.style.display = '';
-  canvas.style.pointerEvents = 'auto';
+  canvas_draw.style.display = '';
+  canvas_draw.style.pointerEvents = 'auto';
 }
 
 function disableDrawing() {
-  canvas.style.display = 'none';
-  canvas.style.pointerEvents = 'none';
+  canvas_draw.style.display = 'none';
+  canvas_draw.style.pointerEvents = 'none';
 }
 
 let active = false;
@@ -120,16 +119,16 @@ function toggleDraw() {
 }
 
 function clear() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx_draw.clearRect(0, 0, canvas_draw.width, canvas_draw.height);
 }
 
 // Mouse events
-canvas.addEventListener('mousedown', startDrawing);
-canvas.addEventListener('mousemove', draw);
-canvas.addEventListener('mouseup', stopDrawing);
-canvas.addEventListener('mouseleave', stopDrawing);
+canvas_draw.addEventListener('mousedown', startDrawing);
+canvas_draw.addEventListener('mousemove', draw);
+canvas_draw.addEventListener('mouseup', stopDrawing);
+canvas_draw.addEventListener('mouseleave', stopDrawing);
 
 // Touch events
-canvas.addEventListener('touchstart', startDrawing, {passive: false});
-canvas.addEventListener('touchmove', draw, {passive: false});
-canvas.addEventListener('touchend', stopDrawing);
+canvas_draw.addEventListener('touchstart', startDrawing, {passive: false});
+canvas_draw.addEventListener('touchmove', draw, {passive: false});
+canvas_draw.addEventListener('touchend', stopDrawing);
