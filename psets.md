@@ -28,7 +28,7 @@ Here are the problem sets for each week of PILOT learning.
 | 2 | September 8th - September 12th | [PSet 2](/psets/PS2.pdf) ([*Solutions*](/psets/PS2-Soln.pdf)) | [Differential Forms](/psets/PS2-Differential_form.pdf) <br> [Quiz 1 Resources](/FA25/psets.html#quiz1) |
 | 3 | September 15th - September 19th | [PSet 3](/psets/PS3.pdf) ([*Solutions*](/psets/PS3-Soln.pdf)) | [A Small "Dilemma"](/psets/PS3-Dilemma.pdf) |
 | 4 | September 22nd - September 26th | [PSet 4](/psets/PS4.pdf) ([*Solutions*](/psets/PS4-Soln.pdf)) | [Lipchitz Continuity](/psets/PS4-Lipchitz.pdf) |
-| ☞ 5 ☜ | September 29th - October 3rd | [PSet 5](/psets/PS5.pdf) ([*Solutions*](/psets/PS5-Soln.pdf)) | [Canonical Decomposition](/psets/PS5-Canonical.pdf) |
+| ☞ 5 ☜ | September 29th - October 3rd | [PSet 5](/psets/PS5.pdf) ([*Solutions*](/psets/PS5-Soln.pdf)) | [Canonical Decomposition](/psets/PS5-Canonical.pdf)  <br> [Quiz 2 Resources](/FA25/psets.html#quiz2) |
 | 6 | October 6th - October 10th | [PSet 6](/psets/PS6.pdf) ([*Solutions*](/psets/PS6-Soln.pdf)) | [Introduction to $$L^2([0,2\pi])$$ Space](/psets/PS6-L2.pdf) |
 | 7 | October 13th - October 15th |  |  |
 
