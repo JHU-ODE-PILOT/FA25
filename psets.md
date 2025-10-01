@@ -16,9 +16,10 @@ title: "Problem Sets"
 ## 📅 Weekly Problem Sets
 
 Here are the problem sets for each week of PILOT learning.
-- The problem sets will be updated before Monday each week, it is consisted of a compact and a printable version, accompanied by a passcode protected solution manual.
+- The problem sets will be updated before Monday each week, it is consisted of a problem set combined with (sometimes) additional materials, accompanied by a passcode protected solution manual.
   - We might update problem sets and solution manuals due to minor typos, so please always refresh for the latest version.
   - The solution is passcode protected to encourage attendance to PILOT sessions, ask your PILOT leader while you are attending the session for more information.
+  - During the weeks when a quiz is given, the solution manual will not have a passcode for equality among all PILOT sessions that week.
 - Additional resources would be tagged or linked in the resources' column.
   - Also check out the [Resources](/FA25/resources.html#important-documents) for additional notes and practices.
 
