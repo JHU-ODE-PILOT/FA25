@@ -46,7 +46,7 @@ title: "Home"
 
 ## 📢 Announcements
 
-- **9/27/2025.** [Quiz 2 review sets](https://jhu-ode-pilot.github.io/FA25/psets.html#quiz2) is now available.
+- **10/3/2025.** [Quiz 2 review information](https://jhu-ode-pilot.github.io/FA25/psets.html#quiz2) is now up to date.
 - **9/8/2025.** [Quiz 1 review information](https://jhu-ode-pilot.github.io/FA25/psets.html#quiz1) is now up to date.
 - **8/26/2025.** Welcome to PILOT learning for Differential Equations.
 
