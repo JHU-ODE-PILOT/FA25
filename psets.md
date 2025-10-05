@@ -43,7 +43,7 @@ For the in-class assessments, we will prepare corresponding review resources.
 | Assessment Number | Assessment Date | Practices | Review Session |
 |:-----------------:|:---------------:|:---------:|:--------------:|
 | <span id="quiz1">Quiz 1</span> | September 16th | [Review Set 1](/psets/R1.pdf) ([*Solutions*](/psets/R1-Soln.pdf)) <br> [Review Slides](/psets/Quiz-1-Slides.pdf) | September 14th @ 6pm <br> <a onclick="alert(`<img src='/FA25/img/KG180.png' style='max-width: 85%'><br>Krieger 180 is located at the star location (F3).`)"><u>Krieger 180</u></a> |
-| <span id="quiz2">Quiz 2</span> | October 7th | [Review Set 2](/psets/R2.pdf) (<a onclick="alert(`To be released.`)">Solutions</a>) <br> [Review Slides](/psets/Quiz-2-Slides.pdf) | October 5th @ 1:30pm <br> <a onclick="alert(`<img src='/FA25/img/HD311.png' style='max-width: 85%'><br>Hodson 311 is located at the star location (F2).`)"><u>Hodson 311</u></a> |
+| <span id="quiz2">Quiz 2</span> | October 7th | [Review Set 2](/psets/R2.pdf) ([*Solutions*](/psets/R2-Soln.pdf)) <br> [Review Slides](/psets/Quiz-2-Slides.pdf) | October 5th @ 1:30pm <br> <a onclick="alert(`<img src='/FA25/img/HD311.png' style='max-width: 85%'><br>Hodson 311 is located at the star location (F2).`)"><u>Hodson 311</u></a> |
 | Quiz 3 | October 28th |  |  |
 | Quiz 4 | November 18th |  |  |
 | Final | December 15th |  |  |
