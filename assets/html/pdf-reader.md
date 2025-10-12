@@ -29,12 +29,13 @@ stitle: "PDF Reader"
 <div style="text-align: center;">
     <div id="pdf-controls" style="text-align: center; margin-bottom: 10px;">
         <button id="prev">←</button>
-        <span>Page: <span id="page-num">1</span> / <span id="page-count">?</span></span>
+        <span>Page: <input type="number" id="page-num" placeholder="1" min="1" style="width: 25pt;"> / <span id="page-count">?</span></span>
         <button id="next">→</button>
     </div>
     <div id="loading" style="text-align: center;">Loading...</div>
-    <div id="canvasContainer" style="text-align: center;">
+    <div id="pdf-viewer-container" style="text-align: center;">
         <canvas id="pdf-render" style="width: 85%; height: auto; border: 1px solid #ccc;"></canvas>
+        <div class="textLayer"></div>
     </div>
     <br>
     <div id="ddl" style="text-align:right">

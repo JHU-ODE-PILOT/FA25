@@ -11,6 +11,7 @@ const nextBtn = document.getElementById('next');
 
 const pageNumDisplay = document.getElementById('page-num');
 const pageCountDisplay = document.getElementById('page-count');
+const textLayerDiv = document.querySelector('.textLayer');
 
 const resultModal = document.getElementById('result-modal');
 const resultText = document.getElementById('result-text');
@@ -22,15 +23,31 @@ const ddlC = document.getElementById('ddl');
 
 let isUnlock = false;
 
-let passcode = 0;
+let passcode = Number(localStorage.getItem(`pwd-${url}`)) ?? 0;
 
 // --- PDF.js Worker ---
 pdfjsLib.GlobalWorkerOptions.workerSrc =
   "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
 
+document.getElementById('page-num').addEventListener("keydown", (event) => {
+  if (event.key !== "Enter") {
+    return;
+  }
+  const number = document.getElementById('page-num').value;
+  renderPage(number);
+});
+
+pageNumDisplay.addEventListener.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter") {
+      return;
+    }
+    const number = document.getElementById('page-num').value;
+    renderPage(number);
+  });
+
 // --- State Variables ---
 let pdfDoc = null;
-let pageNum = 1;
+let pageNum = Number(localStorage.getItem("page")) ?? 1;
 let pageCount = 0;
 let scale = 3.0; // Default scale
 
@@ -53,6 +70,12 @@ function checkPage() {
 
 // --- Render PDF Page ---
 function renderPage(num) {
+  pageNum = num % pageCount;
+  if (pageNum <= 0) {
+    pageNum += pageCount;
+  }
+  localStorage.setItem("page", pageNum.toString());
+
   loadingMsg.style.display = "block";
   pdfDoc.getPage(num).then((page) => {
     const viewport = page.getViewport({ scale: scale });
@@ -66,8 +89,20 @@ function renderPage(num) {
 
     page.render(renderContext).promise.then(() => {
       loadingMsg.style.display = "none";
-      pageNumDisplay.textContent = pageNum;
+      pageNumDisplay.value = pageNum;
+      textLayerDiv.innerHTML = "";
       checkPage();
+
+      page.getTextContent().then( textContent => {
+          pdfjsLib.renderTextLayer({
+                textContent: textContent,
+                container: textLayerDiv,
+                viewport: viewport,
+                textDivs: []
+            });
+          textLayerDiv.style.width = `${canvas.width / 4}px`;
+          textLayerDiv.style.height = `${canvas.height / 4}px`;
+        })
     });
   });
 }
@@ -89,6 +124,7 @@ function loadPdf(password) {
       hidePasswordModal();
       isUnlock = true;
       checkPage();
+      localStorage.setItem(localStorage.getItem(`pwd-${url}`), password.toString());
     })
     .catch((err) => {
       // PDF.js error code 2 or PasswordException
@@ -166,7 +202,7 @@ if (!url) {
   loadingMsg.textContent = "Invalid URL.";
 } else {
   loadPdf();
-  loadPdf("0");
+  loadPdf(passcode);
 }
 
 downloadBtn.addEventListener('click', function() {
