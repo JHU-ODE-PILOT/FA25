@@ -37,7 +37,7 @@ document.getElementById('page-num').addEventListener("keydown", (event) => {
   renderPage(number);
 });
 
-pageNumDisplay.addEventListener.addEventListener("keydown", (event) => {
+pageNumDisplay.addEventListener("keydown", (event) => {
     if (event.key !== "Enter") {
       return;
     }
