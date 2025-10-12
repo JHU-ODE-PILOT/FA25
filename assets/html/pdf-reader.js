@@ -198,14 +198,12 @@ usrPassword.addEventListener("keydown", function (event) {
 resultModal.style.display = "none";
 
 // --- Initial PDF Load ---
-document.addEventListener("DOMContentLoaded", () => {
-  if (!url) {
-    loadingMsg.textContent = "Invalid URL.";
-  } else {
-    loadPdf();
-    loadPdf(passcode);
-  }
-})
+if (!url) {
+  loadingMsg.textContent = "Invalid URL.";
+} else {
+  loadPdf();
+  loadPdf(passcode);
+}
 
 downloadBtn.addEventListener('click', function() {
     loadingMsg.textContent = "Preparing download...";
