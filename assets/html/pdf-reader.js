@@ -124,7 +124,7 @@ function loadPdf(password) {
       hidePasswordModal();
       isUnlock = true;
       checkPage();
-      localStorage.setItem(localStorage.getItem(`pwd-${url}`), password.toString());
+      localStorage.setItem(`pwd-${url}`, password.toString());
     })
     .catch((err) => {
       // PDF.js error code 2 or PasswordException
