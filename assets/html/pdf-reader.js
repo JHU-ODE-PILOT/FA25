@@ -119,7 +119,6 @@ async function loadPdf(password) {
       pdfDoc = doc;
       pageCount = doc.numPages;
       pageCountDisplay.textContent = pageCount;
-      pageNum = 1;
       renderPage(pageNum);
       hidePasswordModal();
       isUnlock = true;
