@@ -23,7 +23,7 @@ const ddlC = document.getElementById('ddl');
 
 let isUnlock = false;
 
-let passcode = Number(localStorage.getItem(`pwd-${url}`)) ?? 0;
+let passcode = (localStorage.getItem(`pwd-${url}`) ?? "") + "0";
 
 // --- PDF.js Worker ---
 pdfjsLib.GlobalWorkerOptions.workerSrc =
