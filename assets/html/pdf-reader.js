@@ -183,11 +183,11 @@ nextBtn.addEventListener("click", nextPage);
 // document.getElementById('zoom-in').addEventListener("click", zoomIn);
 // document.getElementById('zoom-out').addEventListener("click", zoomOut);
 
-enterBtn.addEventListener("click", async function () {
+enterBtn.addEventListener("click", () => {
   const pw = usrPassword.value + "0";
   loadingMsg.textContent = "Loading PDF ...";
   hidePasswordModal();
-  await loadPdf(pw);
+  loadPdf(pw);
 });
 usrPassword.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
@@ -198,12 +198,12 @@ usrPassword.addEventListener("keydown", function (event) {
 resultModal.style.display = "none";
 
 // --- Initial PDF Load ---
-document.addEventListener("DOMContentLoaded", async () => {
+document.addEventListener("DOMContentLoaded", () => {
   if (!url) {
     loadingMsg.textContent = "Invalid URL.";
   } else {
     loadPdf();
-    await loadPdf(passcode);
+    loadPdf(passcode);
   }
 })
 
