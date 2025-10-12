@@ -202,7 +202,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (!url) {
     loadingMsg.textContent = "Invalid URL.";
   } else {
-    await loadPdf();
+    loadPdf();
     await loadPdf(passcode);
   }
 })
