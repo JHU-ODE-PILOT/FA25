@@ -23,7 +23,7 @@ const ddlC = document.getElementById('ddl');
 
 let isUnlock = false;
 
-let passcode = localStorage.getItem(`pwd-${url}`) ?? 0;
+let passcode = localStorage.getItem(`pwd-${url}`) ?? "0";
 
 // --- PDF.js Worker ---
 pdfjsLib.GlobalWorkerOptions.workerSrc =
@@ -183,11 +183,11 @@ nextBtn.addEventListener("click", nextPage);
 // document.getElementById('zoom-in').addEventListener("click", zoomIn);
 // document.getElementById('zoom-out').addEventListener("click", zoomOut);
 
-enterBtn.addEventListener("click", () => {
+enterBtn.addEventListener("click", async () => {
   const pw = usrPassword.value + "0";
   loadingMsg.textContent = "Loading PDF ...";
   hidePasswordModal();
-  loadPdf(pw);
+  await loadPdf(pw);
 });
 usrPassword.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
@@ -198,12 +198,14 @@ usrPassword.addEventListener("keydown", function (event) {
 resultModal.style.display = "none";
 
 // --- Initial PDF Load ---
-if (!url) {
-  loadingMsg.textContent = "Invalid URL.";
-} else {
-  loadPdf();
-  loadPdf(passcode);
-}
+document.addEventListener("DOMContentLoaded", async () => {
+  if (!url) {
+    loadingMsg.textContent = "Invalid URL.";
+  } else {
+    await loadPdf();
+    await loadPdf(passcode);
+  }
+})
 
 downloadBtn.addEventListener('click', function() {
     loadingMsg.textContent = "Preparing download...";
