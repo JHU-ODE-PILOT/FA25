@@ -32,7 +32,7 @@ Here are the problem sets for each week of PILOT learning.
 | 5 | September 29th - October 3rd | [PSet 5](/psets/PS5.pdf) ([*Solutions*](/psets/PS5-Soln.pdf)) | [Canonical Decomposition](/psets/PS5-Canonical.pdf)  <br> [Quiz 2 Resources](/FA25/psets.html#quiz2) |
 | 6 | October 6th - October 10th | [PSet 6](/psets/PS6.pdf) ([*Solutions*](/psets/PS6-Soln.pdf)) | [Introduction to $$L^2([0,2\pi])$$ Space](/psets/PS6-L2.pdf) |
 | 7 | October 13th - October 15th | [PSet 7](/psets/PS7.pdf) ([*Solutions*](/psets/PS7-Soln.pdf)) | [Deeper Topics into $$L^2([0,2\pi])$$ Space](/psets/PS7-L2.pdf) |
-| 👉 8 👈 | October 20th - October 25th | [PSet 8](/psets/PS8.pdf) ([*Solutions*](/psets/PS8-Soln.pdf)) | [Deeper Topics into $$L^2([0,2\pi])$$ Space](/psets/PS8-Algebra.pdf) |
+| 👉 8 👈 | October 20th - October 25th | [PSet 8](/psets/PS8.pdf) ([*Solutions*](/psets/PS8-Soln.pdf)) | [Review on Linear Algebra](/psets/PS8-Algebra.pdf) |
 | 9 | October 27th - October 31st |  |  |
 
 ## 📑 Review Information
