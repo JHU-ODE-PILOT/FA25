@@ -47,7 +47,7 @@ pageNumDisplay.addEventListener("keydown", (event) => {
 
 // --- State Variables ---
 let pdfDoc = null;
-let pageNum = Number(localStorage.getItem(`page-${url}`)) ?? 1;
+let pageNum = Number(localStorage.getItem(`page-${url}`) ?? "1");
 let pageCount = 0;
 let scale = 3.0; // Default scale
 
