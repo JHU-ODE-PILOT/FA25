@@ -24,6 +24,9 @@ stitle: "PDF Reader"
         margin: 0 5px;
         font-size: 12px;
     }
+    .container {
+        --scale-factor: 1;
+    }
 </style>
 
 <div style="text-align: center;">
