@@ -29,12 +29,16 @@ Here are the problem sets for each week of PILOT learning.
 | 2 | September 8th - September 12th | [PSet 2](/psets/PS2.pdf) ([*Solutions*](/psets/PS2-Soln.pdf)) | [Differential Forms](/psets/PS2-Differential_form.pdf) <br> [Quiz 1 Resources](/FA25/psets.html#quiz1) |
 | 3 | September 15th - September 19th | [PSet 3](/psets/PS3.pdf) ([*Solutions*](/psets/PS3-Soln.pdf)) | [A Small "Dilemma"](/psets/PS3-Dilemma.pdf) |
 | 4 | September 22nd - September 26th | [PSet 4](/psets/PS4.pdf) ([*Solutions*](/psets/PS4-Soln.pdf)) | [Lipchitz Continuity](/psets/PS4-Lipchitz.pdf) |
-| 5 | September 29th - October 3rd | [PSet 5](/psets/PS5.pdf) ([*Solutions*](/psets/PS5-Soln.pdf)) | [Canonical Decomposition](/psets/PS5-Canonical.pdf)  <br> [Quiz 2 Resources](/FA25/psets.html#quiz2) |
+| 5 | September 29th - October 3rd | [PSet 5](/psets/PS5.pdf) ([*Solutions*](/psets/PS5-Soln.pdf)) | [Canonical Decomposition](/psets/PS5-Canonical.pdf) <br> [Quiz 2 Resources](/FA25/psets.html#quiz2) |
 | 6 | October 6th - October 10th | [PSet 6](/psets/PS6.pdf) ([*Solutions*](/psets/PS6-Soln.pdf)) | [Introduction to $$L^2([0,2\pi])$$ Space](/psets/PS6-L2.pdf) |
 | 7 | October 13th - October 15th | [PSet 7](/psets/PS7.pdf) ([*Solutions*](/psets/PS7-Soln.pdf)) | [Deeper Topics into $$L^2([0,2\pi])$$ Space](/psets/PS7-L2.pdf) |
-| 8 | October 20th - October 25th | [PSet 8](/psets/PS8.pdf) ([*Solutions*](/psets/PS8-Soln.pdf)) | [Review on Linear Algebra](/psets/PS8-Algebra.pdf) |
+| 8 | October 20th - October 25th | [PSet 8](/psets/PS8.pdf) ([*Solutions*](/psets/PS8-Soln.pdf)) | [Review on Linear Algebra](/psets/PS8-Algebra.pdf)  <br> [Quiz 3 Resources](/FA25/psets.html#quiz3) |
 | 👉 9 👈 | October 27th - October 31st | [PSet 9](/psets/PS9.pdf) ([*Solutions*](/psets/PS9-Soln.pdf)) | [Conceptual Eigenspace](/psets/PS9-Eigenspace.pdf) |
-| 10 | November 3rd - October 7th |  |  |
+| 10 | November 3rd - November 7th |  |  |
+| 11 | November 10th - November 14th |  |  |
+| 12 | November 17th - November 21st |  |  |
+| ♨️ | November 24th - November 28th |  |  |
+| 13 | December 1st - December 5th |  |  |
 
 ## 📑 Review Information
 
