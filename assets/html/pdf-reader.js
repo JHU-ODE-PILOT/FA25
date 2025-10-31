@@ -88,9 +88,11 @@ function renderPage(num) {
     let scale = getResponsiveScale(unscaledViewport.width);
 
     const viewport = page.getViewport({ scale: scale });
+    const imgviewport = page.getViewport({ scale: scale * 3 });
+    const textviewport = page.getViewport({ scale: scale });
 
-    canvas.width = viewport.width;
-    canvas.height = viewport.height;
+    canvas.width = viewport.width * 3;
+    canvas.height = viewport.height * 3;
     canvas.style.width = viewport.width + "px";
     canvas.style.height = viewport.height + "px";
 
@@ -104,7 +106,7 @@ function renderPage(num) {
 
     const renderContext = {
       canvasContext: ctx,
-      viewport: viewport,
+      viewport: imgviewport,
     };
 
     page.render(renderContext).promise.then(() => {
@@ -116,7 +118,7 @@ function renderPage(num) {
         pdfjsLib.renderTextLayer({
           textContent: textContent,
           container: textLayerDiv,
-          viewport: viewport,
+          viewport: textviewport,
           textDivs: [],
         });
       });
