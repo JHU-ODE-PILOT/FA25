@@ -69,18 +69,38 @@ function checkPage() {
 }
 
 // --- Render PDF Page ---
+function getResponsiveScale(originalPdfWidth) {
+    const container = document.getElementById('pdf-viewer-container');
+    const containerWidth = container.offsetWidth;
+    return containerWidth / originalPdfWidth;
+}
+
 function renderPage(num) {
   pageNum = num % pageCount;
   if (pageNum <= 0) {
     pageNum += pageCount;
   }
   localStorage.setItem(`page-${url}`, pageNum.toString());
-
   loadingMsg.style.display = "block";
+
   pdfDoc.getPage(num).then((page) => {
+    let unscaledViewport = page.getViewport({ scale: 1 });
+    let scale = getResponsiveScale(unscaledViewport.width);
+
     const viewport = page.getViewport({ scale: scale });
-    canvas.height = viewport.height;
+
     canvas.width = viewport.width;
+    canvas.height = viewport.height;
+    canvas.style.width = viewport.width + "px";
+    canvas.style.height = viewport.height + "px";
+
+    textLayerDiv.innerHTML = "";
+    textLayerDiv.style.width = viewport.width + "px";
+    textLayerDiv.style.height = viewport.height + "px";
+    textLayerDiv.style.position = "absolute";
+    textLayerDiv.style.top = "0";
+    textLayerDiv.style.left = "0";
+    textLayerDiv.style.setProperty('--scale-factor', viewport.scale);
 
     const renderContext = {
       canvasContext: ctx,
@@ -92,20 +112,21 @@ function renderPage(num) {
       pageNumDisplay.value = pageNum;
       textLayerDiv.innerHTML = "";
       checkPage();
-
-      page.getTextContent().then( textContent => {
-          pdfjsLib.renderTextLayer({
-                textContent: textContent,
-                container: textLayerDiv,
-                viewport: viewport,
-                textDivs: []
-            });
-          textLayerDiv.style.width = `${canvas.width / 4}px`;
-          textLayerDiv.style.height = `${canvas.height / 4}px`;
-        })
+      page.getTextContent().then(textContent => {
+        pdfjsLib.renderTextLayer({
+          textContent: textContent,
+          container: textLayerDiv,
+          viewport: viewport,
+          textDivs: [],
+        });
+      });
     });
   });
 }
+
+window.addEventListener('resize', () => {
+    if (pdfDoc) renderPage(pageNum);
+});
 
 // --- PDF Loader (with password) ---
 async function loadPdf(password) {
@@ -123,7 +144,9 @@ async function loadPdf(password) {
       hidePasswordModal();
       isUnlock = true;
       checkPage();
-      localStorage.setItem(`pwd-${url}`, password.toString());
+      if (password) {
+        localStorage.setItem(`pwd-${url}`, password.toString());
+      }
     })
     .catch((err) => {
       // PDF.js error code 2 or PasswordException
@@ -162,25 +185,9 @@ function prevPage() {
   }
 }
 
-// --- Zoom ---
-function zoomIn() {
-  scale += 0.25;
-  renderPage(pageNum);
-}
-function zoomOut() {
-  if (scale > 0.5) {
-    scale -= 0.25;
-    renderPage(pageNum);
-  }
-}
-
 // --- Event Listeners ---
 prevBtn.addEventListener("click", prevPage);
 nextBtn.addEventListener("click", nextPage);
-
-// OPTIONAL: If you have zoom in/out buttons, wire them here:
-// document.getElementById('zoom-in').addEventListener("click", zoomIn);
-// document.getElementById('zoom-out').addEventListener("click", zoomOut);
 
 enterBtn.addEventListener("click", async () => {
   const pw = usrPassword.value + "0";
@@ -188,6 +195,7 @@ enterBtn.addEventListener("click", async () => {
   hidePasswordModal();
   await loadPdf(pw);
 });
+
 usrPassword.addEventListener("keydown", function (event) {
   if (event.key === "Enter") {
     enterBtn.click();
