@@ -34,7 +34,7 @@ document.getElementById('page-num').addEventListener("keydown", (event) => {
     return;
   }
   const number = document.getElementById('page-num').value;
-  renderPage(number);
+  renderPage(parseInt(number) ?? 0);
 });
 
 pageNumDisplay.addEventListener("keydown", (event) => {
