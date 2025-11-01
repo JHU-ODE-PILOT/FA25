@@ -83,7 +83,7 @@ function renderPage(num) {
   localStorage.setItem(`page-${url}`, pageNum.toString());
   loadingMsg.style.display = "block";
 
-  pdfDoc.getPage(num).then((page) => {
+  pdfDoc.getPage(pageNum).then((page) => {
     let unscaledViewport = page.getViewport({ scale: 1 });
     let scale = getResponsiveScale(unscaledViewport.width);
 
