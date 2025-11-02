@@ -34,7 +34,7 @@ Here are the problem sets for each week of PILOT learning.
 | 7 | October 13th - October 15th | [PSet 7](/psets/PS7.pdf) ([*Solutions*](/psets/PS7-Soln.pdf)) | [Deeper Topics into $$L^2([0,2\pi])$$ Space](/psets/PS7-L2.pdf) |
 | 8 | October 20th - October 25th | [PSet 8](/psets/PS8.pdf) ([*Solutions*](/psets/PS8-Soln.pdf)) | [Review on Linear Algebra](/psets/PS8-Algebra.pdf)  <br> [Quiz 3 Resources](/FA25/psets.html#quiz3) |
 | 👉 9 👈 | October 27th - October 31st | [PSet 9](/psets/PS9.pdf) ([*Solutions*](/psets/PS9-Soln.pdf)) | [Conceptual Eigenspace](/psets/PS9-Eigenspace.pdf) |
-| 10 | November 3rd - November 7th |  |  |
+| 10 | November 3rd - November 7th | [PSet 10](/psets/PS10.pdf) ([*Solutions*](/psets/PS10-Soln.pdf)) | [Algebraic and Geometric Multiplicity](/psets/PS10-Multiplicity.pdf) |
 | 11 | November 10th - November 14th |  |  |
 | 12 | November 17th - November 21st |  |  |
 | ♨️ | November 24th - November 28th |  |  |
