@@ -36,8 +36,8 @@ Here are the problem sets for each week of PILOT learning.
 | 👉 9 👈 | October 27th - October 31st | [PSet 9](/psets/PS9.pdf) ([*Solutions*](/psets/PS9-Soln.pdf)) | [Conceptual Eigenspace](/psets/PS9-Eigenspace.pdf) |
 | 10 | November 3rd - November 7th | [PSet 10](/psets/PS10.pdf) ([*Solutions*](/psets/PS10-Soln.pdf)) | [Algebraic and Geometric Multiplicity](/psets/PS10-Multiplicity.pdf) |
 | 11 | November 10th - November 14th | [PSet 11](/psets/PS11.pdf) ([*Solutions*](/psets/PS11-Soln.pdf)) | [Nonlinear Systems](/psets/PS11-Nonlinear.pdf) <br> [Quiz 4 Resources](/FA25/psets.html#quiz4) |
-| 12 | November 17th - November 21st |  |  |
-| ♨️ | November 24th - November 28th |  |  |
+| 12 | November 17th - November 21st | [PSet 12](/psets/PS12.pdf) ([*Solutions*](/psets/PS12-Soln.pdf)) | [A Case Study on Tariffs](/psets/PS12-Tariffs.pdf) |
+| ♨️ | November 24th - November 28th | *There are no PILOT sessions during Thanksgiving break!* | [A Putnam Problem](/psets/TB-Putam.pdf) <br> [Matrix Exponential](/psets/TB-Exponential.pdf) |
 | 13 | December 1st - December 5th |  |  |
 
 ## 📑 Review Information
@@ -52,5 +52,5 @@ For the in-class assessments, we will prepare corresponding review resources.
 | <span id="quiz1">Quiz 1</span> | September 16th | [Review Set 1](/psets/R1.pdf) ([*Solutions*](/psets/R1-Soln.pdf)) <br> [Review Slides](/psets/Quiz-1-Slides.pdf) | September 14th @ 6pm <br> <a onclick="alert(`<img src='/FA25/img/KG180.png' style='max-width: 85%'><br>Krieger 180 is located at the star location (F3).`)"><u>Krieger 180</u></a> |
 | <span id="quiz2">Quiz 2</span> | October 7th | [Review Set 2](/psets/R2.pdf) ([*Solutions*](/psets/R2-Soln.pdf)) <br> [Review Slides](/psets/Quiz-2-Slides.pdf) | October 5th @ 1:30pm <br> <a onclick="alert(`<img src='/FA25/img/HD311.png' style='max-width: 85%'><br>Hodson 311 is located at the star location (F2).`)"><u>Hodson 311</u></a> |
 | <span id="quiz3">Quiz 3</span> | October 28th | [Review Set 3](/psets/R3.pdf) ([*Solutions*](/psets/R3-Soln.pdf)) <br> [Review Slides](/psets/Quiz-3-Slides.pdf) | *There is no Review session.* |
-| <span id="quiz4">Quiz 4</span> | November 18th | [Review Set 4](/psets/R4.pdf) (<a onclick="alert('To be released.')"><u>Solutions</u></a>) | *There is no Review session.* |
+| <span id="quiz4">Quiz 4</span> | November 18th | [Review Set 4](/psets/R4.pdf) ([*Solutions*](/psets/R4-Soln.pdf)) <br> [Review Slides](/psets/Quiz-4-Slides.pdf) | *There is no Review session.* |
 | <span id="final">Final Exam</span> | December 15th |  |  |
