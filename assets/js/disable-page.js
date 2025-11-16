@@ -10,6 +10,10 @@ const examTime = [
         end: new Date("2025-10-07T09:00:00")
     },
     {
+        start: new Date("2025-10-28T08:00:00"),
+        end: new Date("2025-10-28T09:00:00")
+    },
+    {
         start: new Date("2025-11-18T08:00:00"),
         end: new Date("2025-11-18T09:00:00")
     },
