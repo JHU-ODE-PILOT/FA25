@@ -20,12 +20,13 @@ Here are the problem sets for each week of PILOT learning.
   - We might update problem sets and solution manuals due to minor typos, so please always refresh for the latest version.
   - The solution is passcode protected to encourage attendance to PILOT sessions, ask your PILOT leader while you are attending the session for more information.
   - During the weeks when a quiz is given, the solution manual will not have a passcode for equality among all PILOT sessions that week.
-- Additional resources would be tagged or linked in the resources' column.
-  - Also check out the [Resources](/FA25/resources.html#important-documents) for additional notes and practices.
 
 | ⤴️ Attention on Different Contents |
 |:------------|
 |For this semesters, since different sections are covering different materials, there will be problems designed specifically for one section but not the other.<br> In general, the questions labeled with **S** are the questions designated for Series Solutions for Second Order ODEs (Section 01-03) and the questions labeled with **L** are the questions designated for Laplace Transformation (Section 04-06).|
+
+- Additional resources would be tagged or linked in the resources' column.
+  - Also check out the [Resources](/FA25/resources.html#important-documents) for additional notes and practices.
 
 | Week Number | Dates | Problem Set | Additional Resources |
 |:-----------:|:-----:|:-----------:|:---------------------|
