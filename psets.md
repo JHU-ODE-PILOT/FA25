@@ -43,7 +43,7 @@ Here are the problem sets for each week of PILOT learning.
 | 11 | November 10th - November 14th | [PSet 11](/psets/PS11.pdf) ([*Solutions*](/psets/PS11-Soln.pdf)) | [Nonlinear Systems](/psets/PS11-Nonlinear.pdf) <br> [Quiz 4 Resources](/FA25/psets.html#quiz4) |
 | 👉 12 👈 | November 17th - November 21st | [PSet 12](/psets/PS12.pdf) ([*Solutions*](/psets/PS12-Soln.pdf)) | [A Case Study on Tariffs](/psets/PS12-Tariffs.pdf) |
 | ☕️ | November 24th - November 28th | *Have a nice break!* | [A Putnam Problem](/psets/TB-Putam.pdf) <br> [Matrix Exponential](/psets/TB-Exponential.pdf) |
-| 13 | December 1st - December 5th |  | [(S) Holomorphic Functions](/psets/PS13-Holomorphic.pdf) <br> [(L) Approximation to Identity](/psets/PS13-Identity.pdf) |
+| 13 | December 1st - December 5th |  | [(S) Holomorphic Functions](/psets/PS13-Holomorphic.pdf) <br> [(L) Approximation to Identity](/psets/PS13-Identity.pdf) <br> [Final Resources](/FA25/psets.html#final) |
 
 ## 📑 Review Information
 
@@ -58,4 +58,4 @@ For the in-class assessments, we will prepare corresponding review resources.
 | <span id="quiz2">Quiz 2</span> | October 7th | [Review Set 2](/psets/R2.pdf) ([*Solutions*](/psets/R2-Soln.pdf)) <br> [Review Slides](/psets/Quiz-2-Slides.pdf) | October 5th @ 1:30pm <br> <a onclick="alert(`<img src='/FA25/img/HD311.png' style='max-width: 85%'><br>Hodson 311 is located at the star location (F2).`)"><u>Hodson 311</u></a> |
 | <span id="quiz3">Quiz 3</span> | October 28th | [Review Set 3](/psets/R3.pdf) ([*Solutions*](/psets/R3-Soln.pdf)) <br> [Review Slides](/psets/Quiz-3-Slides.pdf) | *There is no Review session.* |
 | <span id="quiz4">Quiz 4</span> | November 18th | [Review Set 4](/psets/R4.pdf) ([*Solutions*](/psets/R4-Soln.pdf)) <br> [Review Slides](/psets/Quiz-4-Slides.pdf) | *There is no Review session.* |
-| <span id="final">Final Exam</span> | December 15th |  |  |
+| <span id="final">Final Exam</span> | December 15th |  | December 14th @ 6:00pm <br> <a onclick="alert(`<img src='/FA25/img/AMES234.png' style='max-width: 85%'><br>Ames 234 is located at the star location (F3).`)"><u>Ames 234</u></a> |
