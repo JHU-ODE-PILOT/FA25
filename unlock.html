@@ -1,0 +1,58 @@
+---
+layout: default
+title: "Unlock Website"
+pageCate: "PSets"
+---
+
+<h2>Enter the unlock password to unlock all problem sets</h2>
+
+<input type="password" id="passwordInput" placeholder="Enter password">
+<button onclick="fetchPasswords()">Get Passwords</button>
+<pre id="result"></pre>
+
+<script>
+    async function fetchPasswords() {
+        const password = document.getElementById('passwordInput').value;
+        const resultBox = document.getElementById('result');
+        try {
+            const response = await fetch('https://script.google.com/macros/s/AKfycbycAYsXFn_QWl9LvfpPYmX37-5klkVxaGQGXdtVOO-Xo1fvRS5u5kfC0_6zdhnPElJ3QA/exec', {
+                method: 'POST',
+                mode: "no-cors",
+                headers: {
+                'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ password: password })
+            });
+
+            const data = await response.json();
+
+            if (data.status !== "success") {
+                throw new Error("Insuccessful unlock.")
+            }
+            
+            const fileMap = {
+                p1: "PS1-Soln.pdf",
+                p2: "PS2-Soln.pdf",
+                p4: "PS4-Soln.pdf",
+                p5: "PS5-Soln.pdf",
+                p7: "PS7-Soln.pdf",
+                p8: "PS8-Soln.pdf",
+                p10: "PS10-Soln.pdf",
+                p11: "PS11-Soln.pdf",
+                p13: "PS13-Soln.pdf"
+            };
+
+            const ps = response.passwords;
+            for (const pKey in ps) {
+                if (fileMap[pKey]) {
+                    const storageKey = `pwd-/FA25/psets/${fileMap[pKey]}`;
+                    localStorage.setItem(storageKey, ps[pKey]);
+                }
+            }
+            
+
+        } catch (error) {
+            alert(error.message);
+        }
+    }
+</script>
