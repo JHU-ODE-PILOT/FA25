@@ -16,11 +16,11 @@ pageCate: "PSets"
         const password = document.getElementById('passwordInput').value;
         const resultBox = document.getElementById('result');
         // try {
-            const response = await fetch('https://script.google.com/macros/s/AKfycbycAYsXFn_QWl9LvfpPYmX37-5klkVxaGQGXdtVOO-Xo1fvRS5u5kfC0_6zdhnPElJ3QA/exec', {
+            const response = await fetch('https://script.google.com/macros/s/AKfycbwHycQTwj79TVSNppVTMz3slFDwM5XZRlA0Oxv6poqLJz1e0TWC9DdY543gvFhxsWWOaw/exec', {
                 method: 'POST',
                 mode: "no-cors",
                 headers: {
-                'Content-Type': 'application/json'
+                    'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({ password: password })
             });
