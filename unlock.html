@@ -6,9 +6,10 @@ pageCate: "PSets"
 
 <h2>Enter the unlock password to unlock all problem sets</h2>
 
-<input type="password" id="passwordInput" placeholder="Enter password">
-<button onclick="fetchPasswords()">Get Passwords</button>
-<pre id="result"></pre>
+<div style="text-align: center;">
+    <input type="password" id="passwordInput" placeholder="Enter password"> <br>
+    <button onclick="fetchPasswords()">Get Passwords</button>
+</div>
 
 <script>
     async function fetchPasswords() {
@@ -17,7 +18,7 @@ pageCate: "PSets"
         try {
             const response = await fetch('https://script.google.com/macros/s/AKfycbycAYsXFn_QWl9LvfpPYmX37-5klkVxaGQGXdtVOO-Xo1fvRS5u5kfC0_6zdhnPElJ3QA/exec', {
                 method: 'POST',
-                mode: "no-cors",
+                // mode: "no-cors",
                 headers: {
                 'Content-Type': 'application/json'
                 },
