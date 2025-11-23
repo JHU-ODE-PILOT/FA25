@@ -54,7 +54,7 @@ pageCate: "PSets"
                 p13: "PS13-Soln.pdf"
             };
 
-            const ps = response.passwords;
+            const ps = data.passwords;
             for (const pKey in ps) {
                 if (fileMap[pKey]) {
                     const storageKey = `pwd-/FA25/psets/${fileMap[pKey]}`;
