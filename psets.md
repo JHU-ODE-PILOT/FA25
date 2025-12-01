@@ -41,9 +41,9 @@ Here are the problem sets for each week of PILOT learning.
 | 9 | October 27th - October 31st | [PSet 9](/psets/PS9.pdf) ([*Solutions*](/psets/PS9-Soln.pdf)) | [Conceptual Eigenspace](/psets/PS9-Eigenspace.pdf) |
 | 10 | November 3rd - November 7th | [PSet 10](/psets/PS10.pdf) ([*Solutions*](/psets/PS10-Soln.pdf)) | [Algebraic and Geometric Multiplicity](/psets/PS10-Multiplicity.pdf) |
 | 11 | November 10th - November 14th | [PSet 11](/psets/PS11.pdf) ([*Solutions*](/psets/PS11-Soln.pdf)) | [Nonlinear Systems](/psets/PS11-Nonlinear.pdf) <br> [Quiz 4 Resources](/FA25/psets.html#quiz4) |
-| 👉 12 👈 | November 17th - November 21st | [PSet 12](/psets/PS12.pdf) ([*Solutions*](/psets/PS12-Soln.pdf)) | [A Case Study on Tariffs](/psets/PS12-Tariffs.pdf) |
+| 12 | November 17th - November 21st | [PSet 12](/psets/PS12.pdf) ([*Solutions*](/psets/PS12-Soln.pdf)) | [A Case Study on Tariffs](/psets/PS12-Tariffs.pdf) |
 | ☕️ | November 24th - November 28th | *Have a nice break!* | [A Putnam Problem](/psets/TB-Putam.pdf) <br> [Matrix Exponential](/psets/TB-Exponential.pdf) |
-| 13 | December 1st - December 5th | [PSet 13](/psets/PS13.pdf) ([*Solutions*](/psets/PS13-Soln.pdf)) | [(S) Holomorphic Functions](/psets/PS13-Holomorphic.pdf) <br> [(L) Approximation to Identity](/psets/PS13-Identity.pdf) <br> [Final Resources](/FA25/psets.html#final) |
+| 👉 13 👈 | December 1st - December 5th | [PSet 13](/psets/PS13.pdf) ([*Solutions*](/psets/PS13-Soln.pdf)) | [(S) Holomorphic Functions](/psets/PS13-Holomorphic.pdf) <br> [(L) Approximation to Identity](/psets/PS13-Identity.pdf) <br> [Final Resources](/FA25/psets.html#final) |
 
 - [Unlock all solutions](/unlock.html): Use this link to enter a specific password in order to unlock all problem set solutions.
 
