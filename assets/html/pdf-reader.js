@@ -257,3 +257,14 @@ const clearBtn = document.getElementById('clear');
 clearBtn.addEventListener('click', function() {
   usrPassword.value = "";
 })
+
+document.addEventListener("keydown", (event) => {
+  if (event.target === "input#page-num") {
+    return;
+  }
+  if (event.key === "ArrowRight") {
+    nextPage();
+  } else if (event.key === "ArrowLeft") {
+    prevPage();
+  }
+})
