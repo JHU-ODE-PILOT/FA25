@@ -46,6 +46,7 @@ title: "Home"
 
 ## 📢 Announcements
 
+- **12/6/2025.** [Final review information](https://jhu-ode-pilot.github.io/FA25/psets.html#final) is now up to date.
 - **11/10/2025.** [Quiz 4 review information](https://jhu-ode-pilot.github.io/FA25/psets.html#quiz4) is now up to date.
 - **10/20/2025.** [Quiz 3 review information](https://jhu-ode-pilot.github.io/FA25/psets.html#quiz3) is now up to date.
 - **10/3/2025.** [Quiz 2 review information](https://jhu-ode-pilot.github.io/FA25/psets.html#quiz2) is now up to date.
